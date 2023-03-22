@@ -1,15 +1,14 @@
-import PySimpleGUI as sg
-import os
-import pyshorteners
-import clipboard 
+from assets1 import *
 
 class SystemClients:
     def __init__(self):
-        sg.theme('Reddit')
+        
+        sg.theme('DarkGrey6')
+        
         layout = [
-            [sg.Text('Nome:',size=(12,1)), sg.Input(key='name1', size=(35, 1))],
-            [sg.Text('Numero:',size=(12,1)), sg.Input(key='nmr1', size=(15, 1))],
-            [sg.Text('Data Visita:',size=(12,1)), sg.Input(key='dat1', size=(15, 1))],
+            [sg.Text('Nome:',size=(12,1)), sg.InputText(key='name1', size=(35, 1))],
+            [sg.Text('Numero:',size=(12,1)), sg.InputText(key='nmr1', size=(18, 1))],
+            [sg.Text('Data Visita:',size=(12,1)), sg.Input(key='dat1', size=(18, 1)), sg.CalendarButton("Selecione a Data", close_when_date_chosen=True,  target='dat1', no_titlebar=True)],
             [sg.Text('Endereço:',size=(12,1)), sg.Input(key='end1', size=(35, 1))],
             [sg.Text('Motivo:',size=(12,1)), sg.Input(key='mot1', size=(35, 1))],
             [sg.Output(size=(52, 7))],
@@ -17,6 +16,7 @@ class SystemClients:
         ]
         
         self.janela = sg.Window('System', layout)
+        
         
     def Iniciar(self):
      while True:
