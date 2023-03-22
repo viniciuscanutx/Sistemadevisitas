@@ -22,9 +22,12 @@ class SystemClients:
      while True:
       evento, valores = self.janela.read()
       if evento == sg.WINDOW_CLOSED:
-                break
+        break
+      if evento == 'Cadastrar':
+        cadastrodone = self.cadastro1(valores)
+        print(cadastrodone)           
       if evento == 'Fechar':
-                break
+        break
 
 
     def cadastro1(self, valores):
@@ -33,8 +36,8 @@ class SystemClients:
        dat2 = (valores['dat1'])
        end2 = (valores['end1'])
        mot2 = (valores['mot1'])
-       short_end1 = (f'Nome:' + name2 + '\n Número de Telefone: ' + nmr2 + '\n Data de Visita: ' + dat2 + '\n Endereço: ' + end2 + '\n Motivo:  ' +  mot2)
-       print('\n Solicitação de visita:')
+       short_end1 = (f' Nome: ' + name2 + '\n Número de Telefone: ' + nmr2 + '\n Data de Visita: ' + dat2 + '\n Endereço: ' + end2 + '\n Motivo:  ' +  mot2)
+       print(' Solicitação de visita: \n ')
        return short_end1
        
 
