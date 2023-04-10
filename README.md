@@ -12,10 +12,14 @@
 <div align="center">
 <img src='https://raw.githubusercontent.com/viniciuscanutx/sistemadevisitas.py/master/img/screenshots/1.png' width=800px />
  
+ 
+ 
   
 <div align="center">
 <img src='https://raw.githubusercontent.com/viniciuscanutx/sistemadevisitas.py/master/img/screenshots/2.png' width=800px />
   
 
+ 
+ 
 <div align="center">
 <img src='https://raw.githubusercontent.com/viniciuscanutx/sistemadevisitas.py/master/img/screenshots/3.png' width=800px />
