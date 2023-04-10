@@ -6,6 +6,7 @@
 ##  pyshorteners
 ##  clipboard
 ##  termcolor
+## pandas
 
 # How to install 
 
@@ -13,3 +14,4 @@
 ## pip install pyshorteners
 ## pip install clipboard
 ## pip instal termcolor
+## pip install pandas
