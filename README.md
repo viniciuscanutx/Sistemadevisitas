@@ -10,4 +10,12 @@
 
 
 <div align="center">
-<img src='https://github.com/viniciuscanutx/imccalcjs/blob/35330732cc4a7175503b03b4d7d83d6abbbc2388/img/6.png' width=800px />
+<img src='(https://raw.githubusercontent.com/viniciuscanutx/sistemadevisitas.py/master/img/screenshots/1.png)' width=800px />
+ 
+  
+<div align="center">
+<img src='(https://raw.githubusercontent.com/viniciuscanutx/sistemadevisitas.py/master/img/screenshots/2.png)' width=800px />
+  
+
+<div align="center">
+<img src='(https://raw.githubusercontent.com/viniciuscanutx/sistemadevisitas.py/master/img/screenshots/3.png)' width=800px />
